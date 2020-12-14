@@ -1,4 +1,4 @@
-on: github-ci
+on: push
 name: build
 jobs:
   build:
