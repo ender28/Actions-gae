@@ -2,7 +2,7 @@ on: push
 name: build
 jobs:
   build:
-    name: deploy to cluster
+    name: build cr-gcp
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
