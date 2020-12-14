@@ -1,9 +1,8 @@
-name: github-ci
-on:
-  push:
-    branches: [ master ]
-jobs:  
-  docker-build-cr-gcp:
+on: github-ci
+name: build
+jobs:
+  build:
+    name: deploy to cluster
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
